@@ -18,9 +18,10 @@ A multiplayer Texas Hold'em poker game developed in C, featuring:
 - **GTK3 Graphical User Interface:** Provides an interactive game lobby for joining and organizing multiplayer sessions, along with a responsive gameplay interface displaying player information, cards, betting controls, chip counts, and dynamically updated game states.
 - **Real-Time Game Synchronization:** Coordinates player actions, betting decisions, and game-state updates between the server and connected clients to maintain consistent multiplayer gameplay.
 
-[View Repository](https://github.com/QueencyT/anteater-poker)
+### [🔗 View Repository →](https://github.com/QueencyT/anteater-poker)
+
 <br>
-</br>
+
 ### 🗄️ SQL Database Engine | C++
 **Data Structures · Parsing · Database Systems**
 
@@ -31,9 +32,10 @@ A database management system developed from scratch in C++ featuring:
 - **Error Handling:** Validates commands and reports invalid SQL syntax or table-related errors.
 - **Interactive Console Interface:** Allows users to execute supported database commands and access usage instructions.
 
-[View Repository](https://github.com/QueencyT/sql-database-engine)
+### [🔗 View Repository →](https://github.com/QueencyT/sql-database-engine)
+
 <br>
-</br>
+
 ### 🐍 Snake Solver | x86 Assembly
 **Graph Algorithms · Pathfinding · Simulation**
 
@@ -41,10 +43,11 @@ An autonomous Snake solver developed in x86 Assembly to solve the game in as few
 - **Dijkstra's algorithm** with dynamic graph updates to calculate shortest paths while accounting for the snake's changing body positions.
 - **Custom Simulation-based path validation algorithm** that predicts future body configurations and verifies tail reachability to preserve movement options.
 - **Multi-level waypoint-based pathfinding** to explore alternative routes when the shortest path is unsafe, with tail-following as a fallback when no valid route to an apple is found.
-  
-[View Repository](https://github.com/QueencyT/snake-solver)
+
+### [🔗 View Repository →](https://github.com/QueencyT/snake-solver)
+
 <br>
-</br>
+
 ### ♟️ Anteater Chess | C, GTK4, Cairo
 
 **Artificial Intelligence · Game Development · GUI Design**
@@ -56,7 +59,7 @@ A custom chess game developed in C, featuring:
 - **Custom game mechanics and move validation** for traditional chess rules and Anteater-specific captures, including special moves such as castling and en passant.
 - **Integrated game-state management** with stack-based undo functionality, move logging, and automatic detection of game-ending conditions.
 
-[View Repository](https://github.com/QueencyT/anteater-chess)
+### [🔗 View Repository →](https://github.com/QueencyT/anteater-chess)
 
 --- 
 
