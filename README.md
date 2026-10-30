@@ -1,5 +1,5 @@
 
-# Click Me For More Detailed Info on My Repositories - Queency Tan 
+# Hi! My name is Queency Tan!
 
 I'm a Computer Engineering student at the University of California, Irvine, interested in software engineering, algorithms, systems programming, and building practical applications.
 
