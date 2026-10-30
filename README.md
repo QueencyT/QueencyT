@@ -85,12 +85,14 @@ A collection of data structures implemented <ins>**from scratch in C++**</ins>, 
 
 | Data Structure | Key Features | Repository |
 |---|---|---|
-| **B+ Tree** | Dynamic insertion/deletion, linked-leaf traversal, Map and Multimap | [View Repository →](https://github.com/QueencyT/b-plus-tree) |
+| **B+ Tree / Map / Multimap** | Dynamic insertion/deletion, linked-leaf traversal | [View Repository →](https://github.com/QueencyT/b-plus-tree) |
 | **B-Tree** | Multi-key nodes, tree rebalancing, efficient searching | [View Repository →](https://github.com/QueencyT/b-tree) |
 | **Binary Search Tree** | Recursive operations, traversal, deep copying, memory management | [View Repository →](https://github.com/QueencyT/binary-search-tree) |
 | **AVL Tree** | Self-balancing rotations, insertion, deletion, and traversal | [View Repository →](https://github.com/QueencyT/avl-tree) |
 | **Hash Table** | Linear probing, double hashing, AVL-tree-based separate chaining | [View Repository →](https://github.com/QueencyT/hash-table-implementations) |
-| **Heap & Priority Queue** | Template-based max heap, priority scheduling, FIFO tie-breaking | [View Repository →](https://github.com/QueencyT/heap-priority-queue) |
+| **Heap & Priority Queue** | Template-based max heap, priority scheduling, FIFO tie-breaking | [View Repository →](https://github.com/QueencyT/heap-priority-queue) 
+| **Stack & Queue** | Singly linked list implementation, LIFO/FIFO operations, custom iterators, templates, dynamic memory management | [View Repository →](https://github.com/QueencyT/stack-and-queue) |
+
 
 ---
 
