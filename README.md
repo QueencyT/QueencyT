@@ -6,21 +6,25 @@ I'm a Computer Engineering student at the University of California, Irvine, inte
 I enjoy developing projects that combine problem-solving with software architecture, from implementing data structures and algorithms to building graphical applications and multiplayer systems.
 
 ---
-<details>
+## Featured Projects 
 
-<summary><h2> 📁 Featured Projects - Click to Expand </h2>
-
-A collection of my software engineering projects showcasing my experience in algorithm design, data structures, artificial intelligence, graphical user interfaces, and systems programming. Each project highlights different technical challenges, from developing custom algorithms and data management systems to building interactive applications and multiplayer experiences.
-</summary> 
 
 ### 🃏 Anteater Poker | C, GTK3, TCP Sockets
-**GUI Development · Networking · Multiplayer Systems · AI-controlled opponents**
 
-A multiplayer Texas Hold'em poker game developed in C, featuring:
-- **Multiplayer Networking:** Implements TCP socket-based communication, allowing multiple players to connect to a centralized game server and participate in multiplayer poker sessions.
+**GUI Development · Networking · Multiplayer Systems · AI**
+
+A multiplayer Texas Hold'em poker game developed in C, featuring a TCP socket-based client-server architecture, an interactive GTK3 graphical interface, real-time gameplay synchronization, and AI-controlled opponents powered by Monte Carlo simulations.
+
+<details>
+<summary><b>🔍 View Technical Details</b></summary>
+
+<br>
+ **Multiplayer Networking:** Implements TCP socket-based communication, allowing multiple players to connect to a centralized game server and participate in multiplayer poker sessions.
 - **AI-Controlled Opponents:** Uses Monte Carlo simulations to estimate poker-hand strength and guide AI betting decisions based on simulated outcomes.
-- **GTK3 Graphical User Interface:** Provides an interactive game lobby for joining and organizing multiplayer sessions, along with a responsive gameplay interface displaying player information, cards, betting controls, chip counts, and dynamically updated game states.
-- **Real-Time Game Synchronization:** Coordinates player actions, betting decisions, and game-state updates between the server and connected clients to maintain consistent multiplayer gameplay.
+- **GTK3 Graphical User Interface:** Provides an interactive lobby for joining and organizing multiplayer sessions, along with a responsive gameplay interface displaying player information, cards, betting controls, chip counts, and dynamically updated game states.
+- **Real-Time Game Synchronization:** Coordinates player actions and state updates between the server and connected clients to maintain consistent multiplayer gameplay.
+
+</details>
 
 ### [🔗 View Repository →](https://github.com/QueencyT/anteater-poker)
 
@@ -78,8 +82,6 @@ An interactive graphing calculator developed in C++, featuring a graphical inter
 
 ### [🔗 View Repository →](https://github.com/QueencyT/graphing-calculator)
 
-
-</details>
 --- 
 
 ### Data Structures & Algorithms
