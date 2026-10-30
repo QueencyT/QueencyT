@@ -6,8 +6,12 @@ I'm a Computer Engineering student at the University of California, Irvine, inte
 I enjoy developing projects that combine problem-solving with software architecture, from implementing data structures and algorithms to building graphical applications and multiplayer systems.
 
 ---
+<details>
 
-## Featured Projects
+<summary><h2> 📁 Featured Projects - Click to Expand </h2>
+
+A collection of my software engineering projects showcasing my experience in algorithm design, data structures, artificial intelligence, graphical user interfaces, and systems programming. Each project highlights different technical challenges, from developing custom algorithms and data management systems to building interactive applications and multiplayer experiences.
+</summary> 
 
 ### 🃏 Anteater Poker | C, GTK3, TCP Sockets
 **GUI Development · Networking · Multiplayer Systems · AI-controlled opponents**
@@ -74,6 +78,8 @@ An interactive graphing calculator developed in C++, featuring a graphical inter
 
 ### [🔗 View Repository →](https://github.com/QueencyT/graphing-calculator)
 
+
+</details>
 --- 
 
 ### Data Structures & Algorithms
