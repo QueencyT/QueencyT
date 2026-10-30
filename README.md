@@ -7,7 +7,7 @@ I enjoy developing projects that combine problem-solving with software architect
 
 ---
 
-# Featured Projects
+## Featured Projects
 
 ### 🃏 Anteater Poker | C, GTK3, TCP Sockets
 **GUI Development · Networking · Multiplayer Systems · AI-controlled opponents**
@@ -19,9 +19,8 @@ A multiplayer Texas Hold'em poker game developed in C, featuring:
 - **Real-Time Game Synchronization:** Coordinates player actions, betting decisions, and game-state updates between the server and connected clients to maintain consistent multiplayer gameplay.
 
 [View Repository](https://github.com/QueencyT/anteater-poker)
-
----
-
+<br>
+</br>
 ### 🗄️ SQL Database Engine | C++
 **Data Structures · Parsing · Database Systems**
 
@@ -33,9 +32,8 @@ A database management system developed from scratch in C++ featuring:
 - **Interactive Console Interface:** Allows users to execute supported database commands and access usage instructions.
 
 [View Repository](https://github.com/QueencyT/sql-database-engine)
-
----
-
+<br>
+</br>
 ### 🐍 Snake Solver | x86 Assembly
 **Graph Algorithms · Pathfinding · Simulation**
 
@@ -45,8 +43,8 @@ An autonomous Snake solver developed in x86 Assembly to solve the game in as few
 - **Multi-level waypoint-based pathfinding** to explore alternative routes when the shortest path is unsafe, with tail-following as a fallback when no valid route to an apple is found.
   
 [View Repository](https://github.com/QueencyT/snake-solver)
-
----
+<br>
+</br>
 ### ♟️ Anteater Chess | C, GTK4, Cairo
 
 **Artificial Intelligence · Game Development · GUI Design**
