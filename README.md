@@ -61,6 +61,19 @@ A custom chess game developed in C, featuring:
 
 ### [🔗 View Repository →](https://github.com/QueencyT/anteater-chess)
 
+### 📈 Graphing Calculator | C++, SFML
+
+**Data Structures · Expression Parsing · GUI Development**
+
+An interactive graphing calculator developed in C++, featuring a graphical interface built with SFML, mathematical expression parsing, postfix evaluation, and real-time function visualization featuring: 
+
+- **Mathematical Expression Parsing:** Implements the Shunting Yard algorithm to convert infix mathematical expressions into postfix notation, correctly handling operator precedence and parentheses.
+- **Custom Data Structures:** Uses linked-list-based stacks and queues to manage tokens, evaluate expressions, and support the parsing pipeline.
+- **Interactive SFML Graphical Interface:** Provides a coordinate plane for plotting mathematical functions, along with an expression input interface and interactive graph controls. 
+- **Function Evaluation and Visualization:** Evaluates postfix expressions using Reverse Polish Notation (RPN) and generates graphical plots of mathematical functions across coordinate ranges.
+
+### [🔗 View Repository →](https://github.com/QueencyT/graphing-calculator)
+
 --- 
 
 ### Data Structures & Algorithms
