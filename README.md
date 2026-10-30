@@ -60,6 +60,8 @@ A custom chess game developed in C, featuring:
 
 ### [🔗 View Repository →](https://github.com/QueencyT/anteater-chess)
 
+<br>
+
 ### 📈 Graphing Calculator | C++, SFML
 
 **Data Structures · Expression Parsing · GUI Development**
@@ -75,12 +77,22 @@ An interactive graphing calculator developed in C++, featuring a graphical inter
 
 --- 
 
-### Data Structures & Algorithms
+## Data Structures & Algorithms
 
-A collection of data structure implementations and algorithmic projects focused on efficient storage, searching, sorting, and problem-solving. All developed from scratch using C++.
+A collection of data structures implemented <ins>**from scratch in C++**</ins>, focusing on efficient data organization, searching, insertion, deletion, and memory management.
 
-### B+ Trees 
+<br>
 
+| Data Structure | Key Features | Repository |
+|---|---|---|
+| **B+ Tree** | Dynamic insertion/deletion, linked-leaf traversal, Map and Multimap | [View Repository →](https://github.com/QueencyT/b-plus-tree) |
+| **B-Tree** | Multi-key nodes, tree rebalancing, efficient searching | [View Repository →](https://github.com/QueencyT/b-tree) |
+| **Binary Search Tree** | Recursive operations, traversal, deep copying, memory management | [View Repository →](https://github.com/QueencyT/binary-search-tree) |
+| **AVL Tree** | Self-balancing rotations, insertion, deletion, and traversal | [View Repository →](https://github.com/QueencyT/avl-tree) |
+| **Hash Table** | Linear probing, double hashing, AVL-tree-based separate chaining | [View Repository →](https://github.com/QueencyT/hash-table-implementations) |
+| **Heap & Priority Queue** | Template-based max heap, priority scheduling, FIFO tie-breaking | [View Repository →](https://github.com/QueencyT/heap-priority-queue) |
+
+---
 
 ## Technical Skills
 
@@ -92,14 +104,6 @@ A collection of data structure implementations and algorithmic projects focused 
 | Environments | Linux, Windows, WSL |
 | Libraries | scikit-learn, Matplotlib |
 | Core Concepts | Data Structures, Algorithms, OOP, Networking, Database Systems |
-
-## Areas of Interest
-
-- Software Engineering and Application Development
-- Algorithms and Data Structures
-- Systems Programming
-- Database Systems
-- Artificial Intelligence and Machine Learning
 
 ## Explore My Work
 
