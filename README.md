@@ -1,55 +1,72 @@
 
-# Hi! My name is Queency Tan!
+# 👋 Hi, my name is Queency Tan! 
 
 I'm a Computer Engineering student at the University of California, Irvine, interested in software engineering, algorithms, systems programming, and building practical applications.
 
 I enjoy developing projects that combine problem-solving with software architecture, from implementing data structures and algorithms to building graphical applications and multiplayer systems.
 
-## Featured Projects
+---
 
-### 🐍 Snake Solver | x86 Assembly
-**Algorithms · Pathfinding · Simulation**
+# Featured Projects
 
-An autonomous Snake game solver designed to collect food efficiently while avoiding collisions and self-trapping.
+### 🃏 Anteater Poker | C, GTK3, TCP Sockets
+**GUI Development · Networking · Multiplayer Systems · AI-controlled opponents**
 
-- Implemented shortest-path search using **Dijkstra's algorithm**.
-- Developed simulation-based path validation to preserve future movement options.
-- Integrated waypoint exploration and tail-following fallback strategies.
+A multiplayer Texas Hold'em poker game developed in C, featuring:
+- **Multiplayer Networking:** Implements TCP socket-based communication, allowing multiple players to connect to a centralized game server and participate in multiplayer poker sessions.
+- **AI-Controlled Opponents:** Uses Monte Carlo simulations to estimate poker-hand strength and guide AI betting decisions based on simulated outcomes.
+- **GTK3 Graphical User Interface:** Provides an interactive game lobby for joining and organizing multiplayer sessions, along with a responsive gameplay interface displaying player information, cards, betting controls, chip counts, and dynamically updated game states.
+- **Real-Time Game Synchronization:** Coordinates player actions, betting decisions, and game-state updates between the server and connected clients to maintain consistent multiplayer gameplay.
+
+[View Repository](https://github.com/QueencyT/anteater-poker)
+
+---
 
 ### 🗄️ SQL Database Engine | C++
 **Data Structures · Parsing · Database Systems**
 
-A SQL-like database engine built from scratch with custom command parsing, indexing, and persistent storage.
-
-- Implemented a **finite-state-machine parser** and **Shunting Yard algorithm** for query processing.
-- Used **B+ tree-backed multimaps** for indexed lookups and range queries.
-- Supported SQL-like operations including table creation, record insertion, and conditional selection.
+A database management system developed from scratch in C++ featuring: 
+- **SQL-Like Query Processing:** Supports table creation, record insertion, data retrieval, and conditional selection.
+- **Vector of B+ Tree-backed multimaps:** Used to provide efficient indexed lookups and range-based queries.
+- **Persistent Binary Storage:** Stores table records in binary files for retrieval across program executions.
+- **Error Handling:** Validates commands and reports invalid SQL syntax or table-related errors.
+- **Interactive Console Interface:** Allows users to execute supported database commands and access usage instructions.
 
 [View Repository](https://github.com/QueencyT/sql-database-engine)
 
-### ♟️ Anteater Chess | C, GTK4, Cairo
-**GUI Development · Game Development · Algorithms**
+---
 
-A chess variant featuring an expanded 8×10 board, custom pieces, and AI opponents.
+### 🐍 Snake Solver | x86 Assembly
+**Graph Algorithms · Pathfinding · Simulation**
 
-- Developed an interactive **GTK4/Cairo graphical interface** with move highlighting, countdown timers, and gameplay dialogs.
-- Implemented **stack-based undo functionality** to restore previous board states.
-- Integrated interface components with the underlying chess engine.
-
-### 🃏 Anteater Poker | C, GTK3, TCP Sockets
-**GUI Development · Networking · Multiplayer Systems**
-
-A multiplayer Texas Hold'em variant with custom game mechanics and computer-controlled opponents.
-
-- Developed interactive GTK3 gameplay interfaces with responsive layouts.
-- Implemented client-side TCP socket communication and lobby integration.
-- Integrated GUI, networking, and gameplay components into the multiplayer application.
+An autonomous Snake solver developed in x86 Assembly to solve the game in as few moves as possible while avoiding collisions and self-trapping featuring: 
+- **Dijkstra's algorithm** with dynamic graph updates to calculate shortest paths while accounting for the snake's changing body positions.
+- **Custom Simulation-based path validation algorithm** that predicts future body configurations and verifies tail reachability to preserve movement options.
+- **Multi-level waypoint-based pathfinding** to explore alternative routes when the shortest path is unsafe, with tail-following as a fallback when no valid route to an apple is found.
+  
+[View Repository](https://github.com/QueencyT/snake-solver)
 
 ---
+### ♟️ Anteater Chess | C, GTK4, Cairo
+
+**Artificial Intelligence · Game Development · GUI Design**
+
+A custom chess game developed in C, featuring: 
+
+- **Chess AI** with three difficulty levels, incorporating heuristic board evaluation and minimax search with alpha-beta pruning to optimize move selection.
+- **Interactive GTK4 graphical interface** using Cairo for board rendering, piece movement, legal-move highlighting, player timers, move history, and pawn promotion dialogs.
+- **Custom game mechanics and move validation** for traditional chess rules and Anteater-specific captures, including special moves such as castling and en passant.
+- **Integrated game-state management** with stack-based undo functionality, move logging, and automatic detection of game-ending conditions.
+
+[View Repository](https://github.com/QueencyT/anteater-chess)
+
+--- 
 
 ### Data Structures & Algorithms
 
-A collection of data structure implementations and algorithmic projects focused on efficient storage, searching, sorting, and problem-solving.
+A collection of data structure implementations and algorithmic projects focused on efficient storage, searching, sorting, and problem-solving. All developed from scratch using C++.
+
+### B+ Trees 
 
 
 ## Technical Skills
